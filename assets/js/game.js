@@ -93,3 +93,24 @@ for(var i = 0; i < enemyNames.length; i++) {
         break;
     }
 }
+
+function startGame() {
+    // when a player is defeated or no more enemies call the endgame() function
+    // after player skips or defeats enemy ask if want to 'shop'
+    // if no, continue normal
+    // if yes, call shop() function
+}
+
+function endGame() {
+    // alerts players total stats
+    // asks the player if they want to play again
+    // if 'yes' call the startGame() to restart the game
+}
+
+function shop() {
+    // ask player if they want to 'refill' health, 'upgrade' attack', or 'leave' the shop
+    // if 'refill' subtract money points and increase health
+    // if 'upgrade' subtract money points and increase attack power
+    // if 'leave' alert goodbye and exit the function
+    // if 'invalid' option call shop() function again
+}
